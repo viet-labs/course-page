@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold-letters {
+  font-weight: bold;
+}
+
+.navbar-height {
+  position: fixed;
+  height: 100%;
+  width: 180px;
+  background-color: #18171C;
+}
+
+.title-name {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #F6F6F8;
+}
+
+.border-top {
+  padding-top: 1rem;
+  border-top: solid 1px #323135;
+}
+
+.border-bottom {
+  margin-bottom: 1rem;
+}
+
+.menu-navbar {
+
+}
+
+.menu-list {
+  padding-left: 0;
+}
+
+.menu-list a{
+  font-size: 13px;
+  color: #A3A4AA;
+  text-decoration: none;
+}
+
+.menu-list li {
+  list-style: none;
+}
