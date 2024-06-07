@@ -75,7 +75,7 @@ body {
 
 .bottom-menu {
   margin-right: 60%;
-  height: 50%;
+  height: 65%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,5 +114,55 @@ body {
 .bottom-setting {
   margin-left: 20%;
   margin-top: 3.5rem;
+}
+
+.navbar-weight {
+  margin: 0;
+  position: relative;
+  left: 180px;
+  height: 100vh;
+  width: 85%;
+  align-items: center;
+}
+
+.navbar-weight .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course {
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.free {
+  margin-left: 10px;
+  color: #F9D0EA;
+  font-size: 9px;
+  width: 35px;
+  padding: 1px;
+  border-radius: 3px;
+  background-color: #ED4999;
+  border: solid 1px #ED4999;
+  text-align: center;
+}
+
+.title-course {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.icon-list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.icon-list li {
+  margin-left: 20px;
 }
 
