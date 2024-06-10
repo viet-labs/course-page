@@ -8,12 +8,10 @@
   <title>Course Page</title>
 </head>
 <body>
-  <nav class="navbar-height">
-    <header>
-      <div class="title-name bold-letters">
-        <p>codedamn</p>
-      </div>
-    </header>
+  <nav class="navbar">
+    <div class="title-name bold-letters">
+      <p>codedamn</p>
+    </div>
 
     <div class="menu-navbar">
       <div class="menu">
@@ -70,45 +68,54 @@
       </div>
 
       <div class="bottom-menu">
-        <li>
-          <div class="join">
-            <p class="discord bold-letters">Discord community</p>
-            <p class="members">3222 members</p>
-            <button type="submit" class="button-join">
-              <span>Join</span>
-              <i class='bx bx-right-arrow-alt'></i>
-            </button>
-          </div>
-        </li>
-
-        <div class="bottom-setting">
-          <li class="nav-link">
-            <a href="#">
-              <i class='bx bxs-home icon'></i>
-              <span class="text nav-text">Setting</span>
-            </a>
+        <ul class="menu-links">
+          <li>
+            <div class="join">
+              <p class="discord bold-letters">Discord community</p>
+              <p class="members">3222 members</p>
+              <button type="submit" class="button-join">
+                <span>Join</span>
+                <i class='bx bx-right-arrow-alt'></i>
+              </button>
+            </div>
           </li>
-        </div>
+
+          <li class="bottom-setting">
+              <a href="#">
+                <i class='bx bxs-home icon'></i>
+                <span class="text nav-text">Setting</span>
+              </a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
 
-  <nav class="navbar-weight">
-    <div class="navbar">
+  <div class="title-page">
+    <div class="container">
       <div class="title-course">
-        <p class="course">Courses</p>
-        <p class="free">Free</p>
+        <p class="title-courses">Courses</p>
+        <p class="badge">Free</p>
       </div>
 
       <div class="title-icon">
+        <form action="" class="search-bar">
+          <button type="submit"><i class='bx bx-search'></i></button>
+          <input type="text" placeholder="Search" name="p">
+          <div class="vertical-menu">
+            <a href="" class="action">Courses</a>
+            <a href="">Playgrounds</a>
+            <a href="">Accelerators</a>
+            <a href="">Career paths</a>
+          </div>
+        </form>
         <ul class="icon-list">
-          <input type="search" >
           <li><a href=""><img src="./image/logo2.png" alt=""></a></a></li>
           <li><a href=""><img src="./image/logo3.png" alt=""></a></i></a></li>
           <li><a href=""><img src="./image/logo1.png" alt=""></a></li>
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
 </body>
 </html>
