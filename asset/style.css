@@ -166,8 +166,6 @@ body {
 }
 
 .icon-list {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
   padding: 0;
   display: flex;
   align-items: center;
@@ -202,6 +200,11 @@ body {
   color: #B3B2B6;
 }
 
+ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .vertical-menu a{
   border-radius: 6px;
   padding: 6px 5px 5px 5px;
@@ -215,7 +218,7 @@ body {
   list-style: none;
 }
 
-.icons {
+.breadcumb {
   margin: 0;
   /* position: relative;
   left: 180px; */
@@ -228,17 +231,17 @@ body {
   align-items: center;
 }
 
-.icons li {
+.breadcumb li {
   list-style: none;
 }
 
-.icons i {
+.breadcumb i {
   margin-left: 3px;
   margin-right: 5px;
   color: #A3A4AA;
 }
 
-.icons a {
+.breadcumb a {
   color: #A3A4AA;
   font-size: 13px;
   text-decoration: none;
@@ -276,20 +279,45 @@ body {
 }
 
 .evaluate p {
-  margin-top: 18px;
+  /* margin-top: 18px; */
   margin-left: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .star {
   font-size: 13px;
-}
-
-.star i {
-  margin: 0px;
-  color: #FABF21;
-}
-
-.evaluate-star {
   color: #5F5E64;
 }
 
+.star.yellow {
+  color: #FABF21 !important;
+}
+.star-score, .star-label {
+  margin-left: 5px;
+}
+
+
+
+.main-container {
+  display: flex;
+  padding: 1rem;
+}
+
+.main-body {
+  flex: 1;
+}
+
+.main-aside {
+  width: 256px;
+  border: solid 1px #d0d0d0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-left: 1rem;
+}
