@@ -117,11 +117,12 @@ body {
 }
 
 .title-page {
-  margin: 0;
-  position: relative;
-  left: 180px;
-  height: 8vh;
-  width: 85%;
+  padding: 0.5rem 1rem;
+  /* margin: 0; */
+  /* position: relative; */
+  /* left: 180px; */
+  /* height: 8vh; */
+  /* width: 85%; */
   align-items: center;
 }
 
@@ -132,8 +133,8 @@ body {
 }
 
 .title-courses {
-  margin-top: 10px;
-  margin-left: 1rem;
+  /* margin-top: 10px; */
+  /* margin-left: 1rem; */
   font-weight: bold;
   font-size: 20px;
 }
@@ -158,7 +159,7 @@ body {
 }
 
 .title-icon {
-  margin-top: -8px;
+  /* margin-top: -8px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -214,8 +215,8 @@ body {
 
 .icons {
   margin: 0;
-  position: relative;
-  left: 180px;
+  /* position: relative;
+  left: 180px; */
 }
 
 .icons-next {
@@ -242,8 +243,8 @@ body {
 }
 
 .section {
-  width: 100%;
-  margin-left: 1rem;
+  /* width: 100%; */
+  /* margin-left: 1rem; */
 }
 
 .section-container {

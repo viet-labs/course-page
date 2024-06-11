@@ -6,8 +6,16 @@
   <link rel="stylesheet" href="./asset/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>Course Page</title>
+  <style>
+    .main {
+      margin-left: 180px;
+      width: calc(100% - 180px);
+      min-height: 100vh;
+      background: red;
+    }
+  </style>
 </head>
-<body>
+<body class="page">
   <nav class="navbar">
     <div class="title-name bold-letters">
       <p>codedamn</p>
@@ -91,79 +99,81 @@
     </div>
   </nav>
 
-  <div class="title-page">
-    <div class="container">
-      <div class="title-course">
-        <p class="title-courses">Courses</p>
-        <p class="badge">Free</p>
-      </div>
+  <main class="main">
+    <div class="title-page">
+      <div class="container">
+        <div class="title-course">
+          <p class="title-courses">Courses</p>
+          <p class="badge">Free</p>
+        </div>
 
-      <div class="title-icon">
-        <form action="" class="search-bar">
-          <button type="submit"><i class='bx bx-search'></i></button>
-          <input type="text" placeholder="Search" name="p">
-          <ul class="vertical-menu">
-            <li>
-              <a href="" class="action">
-                Courses
-                <i class='bx bx-chevron-down'></i>
-              </a>
-            </li>
+        <div class="title-icon">
+          <form action="" class="search-bar">
+            <button type="submit"><i class='bx bx-search'></i></button>
+            <input type="text" placeholder="Search" name="p">
+            <ul class="vertical-menu">
+              <li>
+                <a href="" class="action">
+                  Courses
+                  <i class='bx bx-chevron-down'></i>
+                </a>
+              </li>
+            </ul>
+          </form>
+          <ul class="icon-list">
+            <li><a href=""><img src="./image/logo2.png" alt=""></a></a></li>
+            <li><a href=""><img src="./image/logo3.png" alt=""></a></i></a></li>
+            <li><a href=""><img src="./image/logo1.png" alt=""></a></li>
           </ul>
-        </form>
-        <ul class="icon-list">
-          <li><a href=""><img src="./image/logo2.png" alt=""></a></a></li>
-          <li><a href=""><img src="./image/logo3.png" alt=""></a></i></a></li>
-          <li><a href=""><img src="./image/logo1.png" alt=""></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="icons">
-    <ul class="icons-next">
-      <li>
-        <a href="">
-          <i class='bx bx-home-alt' ></i>
-        </a>
-        <i class='bx bx-chevron-right' ></i>
-      </li>
-
-      <li>
-        <a href="">
-          Courses
-        </a>
-        <i class='bx bx-chevron-right' ></i>
-      </li>
-
-      <li>
-        <a href="">Ultimate React.js...</a>
-      </li>
-    </ul>
-  </div>
-
-  <section class="section icons">
-    <div class="section-container">
-      <div class="section-body">
-        <div class="content-body">
-          <p class="badge-pro badge">PRO</p>
-          <p class="content-course bold-letters">Ultimate React.js design patterns</p>
-        </div>
-
-        <div class="evaluate">
-          <p class="star">
-            <i class='bx bxs-star'></i>
-          </p>
-          <p class="evaluate-star bold-letters">5.0</p>
-          <p class="evaluate-reviews star members">(120 reviews)</p>
-        </div>
-      </div>
-
-      <div class="section-card">
-        <div class="card-header">
         </div>
       </div>
     </div>
-  </section>
+
+    <div class="icons">
+      <ul class="icons-next">
+        <li>
+          <a href="">
+            <i class='bx bx-home-alt' ></i>
+          </a>
+          <i class='bx bx-chevron-right' ></i>
+        </li>
+
+        <li>
+          <a href="">
+            Courses
+          </a>
+          <i class='bx bx-chevron-right' ></i>
+        </li>
+
+        <li>
+          <a href="">Ultimate React.js...</a>
+        </li>
+      </ul>
+    </div>
+
+    <section class="section icons">
+      <div class="section-container">
+        <div class="section-body">
+          <div class="content-body">
+            <p class="badge-pro badge">PRO</p>
+            <p class="content-course bold-letters">Ultimate React.js design patterns</p>
+          </div>
+
+          <div class="evaluate">
+            <p class="star">
+              <i class='bx bxs-star'></i>
+            </p>
+            <p class="evaluate-star bold-letters">5.0</p>
+            <p class="evaluate-reviews star members">(120 reviews)</p>
+          </div>
+        </div>
+
+        <div class="section-card">
+          <div class="card-header">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
