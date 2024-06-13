@@ -3,73 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./asset/base.css">
-  <link rel="stylesheet" href="./asset/sidebar.css">
   <link rel="stylesheet" href="./asset/style.css">
-  <link rel="stylesheet" href="./asset/tablet.css">
-  <link rel="stylesheet" href="./asset/mobile.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <title>Course Page</title>
-  <style>
-    .main {
-      margin-left: 180px;
-      width: calc(100% - 180px);
-      min-height: 100vh;
-    }
-  </style>
+  <title>Course-Page</title>
 </head>
-<body class="page">
-  <nav class="navbar">
-    <div class="title-name bold-letters">
-      <p>codedamn</p>
+<body>
+  <nav class="sidebar">
+    <div class="title-page">
+      <strong>codedamn</strong>
     </div>
 
-    <div class="menu-navbar">
-      <div class="menu">
-        <ul class="menu-links">
-          <li class="nav-link">
+    <div class="menu-sidebar">
+      <div class="menu-page">
+        <ul class="menu-link">
+          <li>
             <a href="#">
               <i class='bx bx-home-alt icon'></i>
               <span class="text nav-text">Home</span>
             </a>
           </li>
 
-          <li class="nav-link">
+          <li>
             <a href="#">
               <i class='bx bx-certification icon'></i>
               <span class="text nav-text">Certificates</span>
             </a>
           </li>
 
-          <li class="nav-link border-top">
+          <li class="border-top">
             <a href="#">
               <i class='bx bx-briefcase icon'></i>
               <span class="text nav-text">Career paths</span>
             </a>
           </li>
 
-          <li class="nav-link">
+          <li>
             <a href="#">
               <i class='bx bxs-home icon'></i>
               <span class="text nav-text">Courses</span>
             </a>
           </li>
 
-          <li class="nav-link">
+          <li>
             <a href="#">
               <i class='bx bxs-home icon'></i>
               <span class="text nav-text">Playgrounds</span>
             </a>
           </li>
 
-          <li class="nav-link">
+          <li>
             <a href="#">
               <i class='bx bxs-home icon'></i>
               <span class="text nav-text">Accelerators</span>
             </a>
           </li>
 
-          <li class="nav-link border-top">
+          <li class="border-top">
             <a href="#">
               <i class='bx bxs-home icon'></i>
               <span class="text nav-text">Community</span>
@@ -79,23 +68,21 @@
       </div>
 
       <div class="bottom-menu">
-        <ul class="menu-links">
-          <li>
-            <div class="join">
-              <p class="discord bold-letters">Discord community</p>
-              <p class="members">3222 members</p>
-              <button type="submit" class="button-join">
-                <span>Join</span>
-                <i class='bx bx-right-arrow-alt'></i>
-              </button>
-            </div>
-          </li>
+        <div class="join">
+          <strong class="discord">Discord community</strong>
+          <span class="member">3222 members</span>
+          <button type="submit" class="button-join">
+            <span>Join</span>
+            <i class='bx bx-right-arrow-alt'></i>
+          </button>
+        </div>
 
-          <li class="bottom-setting">
-              <a href="#">
-                <i class='bx bxs-home icon'></i>
-                <span class="text nav-text">Setting</span>
-              </a>
+        <ul class="menu-link">
+          <li>
+            <a href="#">
+              <i class='bx bxs-home icon'></i>
+              <span class="text nav-text">Setting</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -103,14 +90,14 @@
   </nav>
 
   <main class="main">
-    <div class="title-page">
+    <div class="title-name">
       <div class="container">
         <div class="title-course">
-          <p class="title-courses">Courses</p>
-          <p class="badge">Free</p>
+          <strong class="name-course">Courses</strong>
+          <span class="badge">Free</span>
         </div>
 
-        <div class="title-icon">
+        <div class="title-icon flex">
           <form action="" class="search-bar">
             <button type="submit"><i class='bx bx-search'></i></button>
             <input type="text" placeholder="Search" name="p">
@@ -133,7 +120,7 @@
     </div>
 
     <div class="breadcumb">
-      <ul class="icons-next">
+      <ul class="icons">
         <li>
           <a href="">
             <i class="bx bx-home-alt"></i>
@@ -156,17 +143,17 @@
 
     <div class="main-container">
       <div class="main-body">
-        <section class="section icons">
+        <section class="section">
           <div class="section-container">
             <div class="section-body">
-              <div class="flex justify-between">
+              <div class="flex justify-content">
                 <div class="content-body">
-                  <span class="badge-pro badge">PRO</span>
-                  <h1 class="content-course bold-letters">Ultimate React.js design patterns</h1>
+                  <strong class="badge-pro badge">PRO</strong>
+                  <h1 class="content-course">Ultimate React.js design patterns</h1>
                 </div>
 
                 <div class="evaluate">
-                  <i class='bx bxs-star star yellow'></i>
+                  <i class='bx bxs-star star'></i>
                   <strong class="star-score">5.0</strong>
                   <span class="star-label members">(120 reviews)</span>
                 </div>
@@ -175,6 +162,58 @@
 
             <div class="section-card">
               <div class="card-header">
+                <img src="./image/logo4.png" alt="">
+              </div>
+
+              <div class="list-select">
+                <ul class="select">
+                  <li class="choose">Overview</li>
+                  <li>Syllabus</li>
+                  <li>Instructor</li>
+                  <li>Reviews (100+)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-container">
+            <h1 class="title-content">Description</h1>
+            <span class="content-text">
+              Welcome to Ultimate React Design Patterns.
+            </span>
+            <p class="content-text">
+              This course makes you stand out from other react developers in market. This course forcuses on
+              write clean, maintainable and scalable code in react. By the end of this course you would see a
+              change in your development pattern and would surely help you write better code...
+              <a href="">Read more</a>
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-container">
+            <h1 class="title-content">What you will master</h1>
+            <div class="text-content flex">
+              <div>
+                <ul class="text-list">
+                  <li><i class="bx bx-check"></i>React concepts</li>
+                  <li><i class="bx bx-check"></i>react Server Components</li>
+                  <li><i class="bx bx-check"></i>High Order Components</li>
+                  <li><i class="bx bx-check"></i>React Hooks</li>
+                  <li><i class="bx bx-check"></i>React Context API</li>
+                </ul>
+              </div>
+
+              <div>
+                <ul class="text-list">
+                  <li><i class="bx bx-check"></i>Redux</li>
+                  <li><i class="bx bx-check"></i>React Redux Toolkit</li>
+                  <li><i class="bx bx-check"></i>RTK Query (Basics)</li>
+                  <li><i class="bx bx-check"></i>React Query and Client Caching (Basics)</li>
+                  <li><i class="bx bx-check"></i>Basics of Zustand</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -182,7 +221,82 @@
       </div>
 
       <div class="main-aside">
-        Cột bên phải?!!!
+        <section class="card">
+          <div class="content-card">
+            <div class="title-card">
+              <strong>Course Content</strong>
+              <div class="content-header">
+                <ul class="list-content">
+                  <li><i class="bx bxs-calendar"></i>4 hours+ on-demand video content</li>
+                  <li><i class="bx bx-wallet-alt"></i>14 hands-on-keybroad exercises</li>
+                  <li><i class="bx bx-certification"></i>Certificate of completion</li>
+                  <li><i class="bx bx-signal-3"></i>Intermediate</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="border-card"></div>
+
+            <div class="card-body">
+              <div class="buy-course">
+                <div class="price-course flex">
+                  <span class="price-real">£30.00</span>
+                  <strong class="price-discount">£19.99</strong>
+                </div>
+
+                <div class="button-card flex">
+                  <button type="submit" class="button-top">Buy Now</button>
+                  <button type="submit" class="button-bottom">
+                    Free for PRO members
+                    <i class="bx bx-right-arrow-alt"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <div class="link-course">
+                <strong>Secure Payment</strong>
+                <div class="payment">
+                  <ul class="app-payment flex">
+                    <li>
+                      <a href="">
+                        <img src="./image/logo-pay1.png" alt="">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="">
+                        <img src="./image/logo-pay2.png" alt="">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="">
+                        <img src="./image/logo-pay3.png" alt="">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="">
+                        <img src="./image/logo-pay4.png" alt="">
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="">
+                        <img src="./image/logo-pay5.png" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <span class="content-footer">
+                  7-Day Money-Back Guarantee
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </main>
