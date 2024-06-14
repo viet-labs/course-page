@@ -319,6 +319,8 @@ ul {
 }
 
 .text-list i {
+  border-radius: 50%;
+  border: solid 1px #75747B;
   margin-right: 5px;
 }
 
@@ -425,12 +427,14 @@ ul {
 }
 
 .content-requirements i {
+  border: solid 1px #75747B;
+  border-radius: 50%;
   margin-right: 5px;
 }
 
 .name-syllabus {
   font-size: 24px;
-  margin: 1rem 0px;
+  margin: 2rem 0px 1rem 0px;
 }
 
 .design-patterns {
@@ -500,7 +504,7 @@ ul {
 
 .progress-percent {
   width: 100px;
-  padding: 6px;
+  height: 1rem;
   border-radius: 8px;
   border: solid 1px #10A4E8;
   background-color: #10A4E8;
@@ -509,24 +513,119 @@ ul {
 .level-up {
   margin: 1rem 0px;
   border-radius: 8px;
-  height: 350px;
+  height: 409px;
   background-color: #FFFFFF;
-  border: solid 1px #FAFAFA;
+  border: solid 1px #F6F6F7;
 }
 
 .percent-level {
+  position: relative;
   width: 100px;
-  padding: 6px;
+  height: 1rem;
   border-radius: 8px;
   border: solid 1px #BCBCBC;
   background-color: #BCBCBC;
+}
 
+.percent-level-active {
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  border-radius: 8px;
+  border: solid 1px #10A4E8;
+  background-color: #10A4E8;
 }
 
 .percent-rendering {
   width: 100px;
-  padding: 6px;
+  height: 1rem;
   border-radius: 8px;
   border: solid 1px #BCBCBC;
   background-color: #BCBCBC;
+}
+
+.completed {
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+}
+
+.completed-check i{
+  position: relative;
+  padding: 8px;
+  color: #E1F6FE;
+  background-color: #0da1e8;
+  border: solid 1px #0981BE;
+  border-radius: 50%;
+}
+
+.title-level li{
+  color: #75747B;
+  list-style: none;
+  font-size: 13px;
+  margin-left: 2rem;
+}
+
+.badge-level {
+  font-size: 12px;
+  padding: 3px 9px;
+  background-color: #AEDC5B;
+  color: #2C2820;
+  border: solid 1px #AEDC5B;
+  margin: 0;
+}
+
+.title-level-up li{
+  color: #28282A;
+  list-style: none;
+  font-size: 13px;
+  margin-left: 2rem;
+}
+
+.in-process i {
+  position: relative;
+  border-radius: 50%;
+  padding: 8px;
+  color: #0da1e8;
+  border: solid 1px #0981BE;
+}
+
+.unfulfilled i {
+  position: relative;
+  padding: 8px;
+  color: #75747B;
+  background-color: #FAFAFA;
+  border-radius: 50%;
+  border: solid 1px #FAFAFA;
+}
+
+.border-left {
+  position: absolute;
+  height: 33px;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-left: solid 2px #0981BE;
+}
+
+.border-left-white {
+  position: absolute;
+  height: 33px;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-left: solid 2px #EEEEF0;
+}
+
+.button-resume {
+  margin: 0px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: right ;
+}
+
+.button-level {
+  font-size: 13px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #F4F2FF;
+  background-color: #5046E5;
+  border: solid 1px #5046E5;
 }
