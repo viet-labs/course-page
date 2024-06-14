@@ -411,3 +411,122 @@ ul {
   font-size: 13px;
   color: #75747B;
 }
+
+.name-requirements {
+  font-size: 24px;
+  margin: 0px 0px 16px 0px;
+}
+
+.content-requirements li{
+  margin: 10px 0px;
+  font-size: 13px;
+  list-style: none;
+  color: #75747B;
+}
+
+.content-requirements i {
+  margin-right: 5px;
+}
+
+.name-syllabus {
+  font-size: 24px;
+  margin: 1rem 0px;
+}
+
+.design-patterns {
+  padding: 1rem;
+  background-color: #FAFAFA;
+  border-radius: 8px;
+  border: solid 1px #FAFAFA;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-level {
+  padding: 1rem;
+  background-color: #FAFAFA;
+  border: solid 1px #FAFAFA;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-design {
+  align-items: center;
+}
+
+.image-syllabus {
+  margin-right: 16px;
+}
+
+.module-design {
+  padding: 0px 5px;
+  font-size: 10px;
+  background-color: #E4E3E7;
+  border: solid 1px #E4E3E7;
+  border-radius: 3px;
+}
+
+.footer-design i{
+  margin-right: 5px;
+}
+
+.list-design {
+  color: #75747B;
+  font-size: 10px;
+  list-style: none;
+}
+
+.name-design {
+  margin: 2px 0px 6px 0px;
+}
+
+.list-design li {
+  margin-right: 15px;
+}
+
+.progress {
+  text-align: right;
+}
+
+.progress i{
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.percent {
+  font-size: 13px;
+}
+
+.progress-percent {
+  width: 100px;
+  padding: 6px;
+  border-radius: 8px;
+  border: solid 1px #10A4E8;
+  background-color: #10A4E8;
+}
+
+.level-up {
+  margin: 1rem 0px;
+  border-radius: 8px;
+  height: 350px;
+  background-color: #FFFFFF;
+  border: solid 1px #FAFAFA;
+}
+
+.percent-level {
+  width: 100px;
+  padding: 6px;
+  border-radius: 8px;
+  border: solid 1px #BCBCBC;
+  background-color: #BCBCBC;
+
+}
+
+.percent-rendering {
+  width: 100px;
+  padding: 6px;
+  border-radius: 8px;
+  border: solid 1px #BCBCBC;
+  background-color: #BCBCBC;
+}
