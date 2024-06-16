@@ -26,6 +26,10 @@ ul {
   justify-content: space-between;
 }
 
+.relative {
+  position: relative;
+}
+
 .border-top {
   width: 70%;
   border-top: solid 1px #2B2A30;
@@ -416,11 +420,10 @@ ul {
 
 .name-requirements {
   font-size: 24px;
-  margin: 0px 0px 16px 0px;
 }
 
 .content-requirements li{
-  margin: 10px 0px;
+  padding: 8px;
   font-size: 13px;
   list-style: none;
   color: #75747B;
@@ -545,12 +548,12 @@ ul {
 }
 
 .completed {
+  position: relative;
   padding: 1rem 1.5rem;
   justify-content: space-between;
 }
 
 .completed-check i{
-  position: relative;
   padding: 8px;
   color: #E1F6FE;
   background-color: #0da1e8;
@@ -582,7 +585,6 @@ ul {
 }
 
 .in-process i {
-  position: relative;
   border-radius: 50%;
   padding: 8px;
   color: #0da1e8;
@@ -590,7 +592,6 @@ ul {
 }
 
 .unfulfilled i {
-  position: relative;
   padding: 8px;
   color: #75747B;
   background-color: #FAFAFA;
@@ -600,17 +601,17 @@ ul {
 
 .border-left {
   position: absolute;
-  height: 33px;
-  margin-left: 40px;
-  margin-top: 50px;
+  height: 32px;
+  bottom: 50px;
+  left: 40px;
   border-left: solid 2px #0981BE;
 }
 
 .border-left-white {
   position: absolute;
-  height: 33px;
-  margin-left: 40px;
-  margin-top: 50px;
+  height: 32px;
+  bottom: 50px;
+  left: 40px;
   border-left: solid 2px #EEEEF0;
 }
 
